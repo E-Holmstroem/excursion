@@ -3,17 +3,39 @@ h1 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: normal;
     color: white;
-    text-align: center;
+    
+}
+
+h2 {
+    font-size: 42px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    
+}
+
+p {
+    font-size: 21px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: gray;
+    
 }
 
 a {
     color: aquamarine;
     font-size: 16px;
-    text-align: center;
+    
+}
+
+img {
+    margin-bottom: 20px;
 }
 
 body {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     background-color: black;
 }
